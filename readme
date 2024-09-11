@@ -1,0 +1,8 @@
+npm i
+docker compose up -d - para iniciar o docker
+docker ps para ver se o banco aparece
+npm run dev para iniciar o servidor 
+npx drizzle-kit generate gerar as migrations
+npx drizzle-kit migrate para rodar as migrations
+npx drizzle-kit studio para ver o banco de dados no navegador
+npm run seed para colocar uns dados no servidor
